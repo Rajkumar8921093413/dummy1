@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun Kumar - Portfolio</title>
+    <meta name="description" content="Portfolio of Arjun Kumar, a passionate Software Developer and Full Stack Developer based in Chennai.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-content">
+            <div class="logo">AK<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="subtitle">Hello, I'm</h2>
+            <h1 class="title">Raj <span class="gradient-text">Kumar</span></h1>
+            <h3 class="role"><span id="typewriter"></span><span class="cursor">|</span></h3>
+            <p class="description">Motivated Computer Science graduate with strong knowledge of web development, programming, and database management. Seeking an opportunity to apply technical skills and contribute to real-world projects.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary-btn">Contact Me</a>
+                <a href="#projects" class="btn secondary-btn">View Work</a>
+            </div>
+            <div class="social-links">
+                <a href="https://linkedin.com/in/arjunkumar" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/arjunkumar" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:arjunkumar@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="images.jpg" alt="Arjun Kumar Profile Image">
+                <div class="glow"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <div class="section-header">
+            <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        </div>
+        <div class="about-content glass-card">
+            <div class="about-text">
+                <h3>Career Objective</h3>
+                <p>Motivated and detail-oriented Computer Science graduate with strong knowledge of web development, programming, and database management. Seeking an opportunity to apply my technical skills, contribute to real-world projects, and grow as a professional software developer.</p>
+                
+                <div class="details-grid">
+                    <div class="detail-item">
+                        <i class="fas fa-calendar-alt text-primary"></i>
+                        <div>
+                            <h4>DOB</h4>
+                            <p>15 March 2004</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt text-primary"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Chennai, Tamil Nadu</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-language text-primary"></i>
+                        <div>
+                            <h4>Languages</h4>
+                            <p>Tamil, English, Hindi</p>
+                        </div>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-flag text-primary"></i>
+                        <div>
+                            <h4>Nationality</h4>
+                            <p>Indian</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="education">
+                <h3>Education</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>B.E. – Computer Science</h4>
+                            <h5>ABC College of Engineering, Chennai</h5>
+                            <p class="timeline-date">2022 – 2026 | CGPA: 8.4/10</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>Higher Secondary – Class XII</h4>
+                            <h5>XYZ Higher Secondary School, Chennai</h5>
+                            <p class="timeline-date">2021 – 2022 | 82%</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>SSLC – Class X</h4>
+                            <h5>XYZ Higher Secondary School, Chennai</h5>
+                            <p class="timeline-date">2019 – 2020 | 88%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <div class="section-header">
+            <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category glass-card">
+                <div class="skill-icon"><i class="fas fa-code"></i></div>
+                <h3>Programming</h3>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>Java</span>
+                    <span>C</span>
+                    <span>JavaScript</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card">
+                <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                <h3>Frontend</h3>
+                <div class="skill-tags">
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>JavaScript</span>
+                    <span>React.js</span>
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card">
+                <div class="skill-icon"><i class="fas fa-server"></i></div>
+                <h3>Backend</h3>
+                <div class="skill-tags">
+                    <span>PHP</span>
+                    <span>Laravel</span>
+                    <span>Node.js</span>
+                </div>
+            </div>
+            <div class="skill-category glass-card">
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <h3>Database & Tools</h3>
+                <div class="skill-tags">
+                    <span>MySQL</span>
+                    <span>MongoDB</span>
+                    <span>Git & GitHub</span>
+                    <span>VS Code</span>
+                    <span>Postman</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Achievements -->
+    <section id="experience" class="experience section-padding">
+        <div class="section-header">
+            <h2 class="section-title">Experience & <span class="gradient-text">Achievements</span></h2>
+        </div>
+        <div class="exp-achieve-container">
+            <div class="experience-col">
+                <h3>Internship</h3>
+                <div class="glass-card exp-card">
+                    <h4>Web Development Intern</h4>
+                    <h5>TechNova Solutions Pvt. Ltd., Chennai</h5>
+                    <p class="exp-date">June 2025 – August 2025</p>
+                    <ul class="exp-list">
+                        <li>Developed responsive web pages using HTML, CSS, JavaScript, and Bootstrap.</li>
+                        <li>Assisted in developing backend modules using PHP and Laravel.</li>
+                        <li>Worked with MySQL databases and performed CRUD operations.</li>
+                        <li>Used Git and GitHub for source-code management and team collaboration.</li>
+                        <li>Tested application features and fixed basic UI and functional issues.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="achievements-col">
+                <h3>Key Achievements</h3>
+                <div class="glass-card achieve-card">
+                    <ul class="achieve-list">
+                        <li><i class="fas fa-trophy"></i> Participated in an inter-college coding competition.</li>
+                        <li><i class="fas fa-check-circle"></i> Completed multiple academic and personal web development projects.</li>
+                        <li><i class="fas fa-microphone"></i> Presented a mini-project at the college technical symposium.</li>
+                        <li><i class="fas fa-chalkboard-teacher"></i> Participated in workshops on Artificial Intelligence and Web Development.</li>
+                    </ul>
+                </div>
+
+                <h3 class="mt-4">Certifications</h3>
+                <div class="glass-card cert-card mt-2">
+                    <ul class="cert-list">
+                        <li><i class="fas fa-certificate text-primary"></i> Python Programming – ABC Learning Academy</li>
+                        <li><i class="fas fa-certificate text-primary"></i> Full Stack Web Development – XYZ Training Institute</li>
+                        <li><i class="fas fa-certificate text-primary"></i> Introduction to Data Science – Online Certification</li>
+                        <li><i class="fas fa-certificate text-primary"></i> Git & GitHub Fundamentals – Developer Training Program</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <div class="section-header">
+            <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card glass-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-user-check project-icon"></i>
+                        <h3>Smart Attendance Management System</h3>
+                    </div>
+                    <p>Developed a web-based attendance management system for educational institutions. The application allows administrators and faculty to manage students, record attendance, and generate reports.</p>
+                    <div class="tech-stack">
+                        <span>React.js</span>
+                        <span>Laravel</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card glass-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-book-open project-icon"></i>
+                        <h3>Online Course Management System</h3>
+                    </div>
+                    <p>Created a web application where students can register, browse available courses, enroll in courses, and track their learning progress.</p>
+                    <div class="tech-stack">
+                        <span>HTML/CSS/JS</span>
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card glass-card">
+                <div class="project-content">
+                    <div class="project-header">
+                        <i class="fas fa-chart-pie project-icon"></i>
+                        <h3>Sales Data Analysis</h3>
+                    </div>
+                    <p>Analyzed sample sales data to identify monthly sales trends, product performance, and revenue patterns. Created charts and summaries for easier interpretation of the data.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>Matplotlib</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <div class="section-header">
+            <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        </div>
+        <div class="contact-container glass-card">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out for collaborations or just a friendly hello.</p>
+                
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-phone-alt"></i></div>
+                    <div>
+                        <h4>Phone</h4>
+                        <p>+91 98765 43210</p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <h4>Email</h4>
+                        <p><a href="mailto:arjunkumar@example.com">arjunkumar@example.com</a></p>
+                    </div>
+                </div>
+                <div class="info-item">
+                    <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Chennai, Tamil Nadu</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">AK<span>.</span></div>
+            <div class="footer-social">
+                <a href="https://linkedin.com/in/arjunkumar" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/arjunkumar" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <p class="declaration">"I hereby declare that the information provided above is true and correct to the best of my knowledge and belief." - Arjun Kumar, 18 Sept 2026</p>
+            <p class="copyright">&copy; 2026 Arjun Kumar. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
